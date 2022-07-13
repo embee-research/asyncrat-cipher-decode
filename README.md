@@ -9,6 +9,7 @@ The main script is a python implementation of the "Cipher" encoding function fou
 The cipher function takes a base64 input and a key, and implements a custom decoding routine to produce shellcode or a .NET RAT. 
 
 This function is commonly found in malware loaded by IronPython, and is potentially related to the IronNetInjector used by Turla. 
+
 Alternatively, this may just be a complex loader for an AsyncRAT infection. 
 
 https://unit42.paloaltonetworks.com/ironnetinjector/
